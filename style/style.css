@@ -4,6 +4,17 @@
     font-style: normal;
   }
 
+
+  .see-more{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(215, 144, 81);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+  }
+
   nav{
     display: flex;
     justify-content: space-between;
@@ -96,15 +107,21 @@
 
   .main-future{
     width: 1280px;
-    height: 400px;
     margin: auto;
     margin-top: 100px;
+    justify-content: center;
+    
     
   }
 
   .future-parent{
     display: flex;
     gap: 24px;
+    flex-grow: unset;
+    margin: auto;
+    justify-content: space-between;
+    
+    
     
   }
 
@@ -112,7 +129,9 @@
     background-color: aquamarine;
     padding: 20px;
     border-radius: 10px;
-    height: 240px;
+    height: 235px;
+    width: 410px;
+    
   }
 
   .future-text{
@@ -127,14 +146,19 @@
 .future-content{
     background-color: bisque;
     border-radius: 10px;
-    /* margin-left: 70px; */
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
+    
+    
     border: 20px solid bisque;
     height: 180px;
     width: 1245px;
     margin: auto;
+    border: 1px solid tomato;
+    padding: 30px;
 
+}
+.dd{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
 }
 
 .future-mcnt{
@@ -245,30 +269,44 @@
     border: none;
     border-radius: 10px 0 0 10px;
     background-color: beige;
-    /* padding-left: 20px; */
+    
     
   }
 
   .search{
     display: flex;
+    
   }
 
   .imgg{
     border: none; background-color: #006A50;
     border-radius: 0 10px 10px 0;
     width: 120px;
+    height: 42px;
   }
 
   .footer-head{
     text-align: center;
+    background-color: #19d5e2;
+    height: 280px;
+    width: 1280px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 
   }
 
-  /* .footer-father{
+  .footer-father{
     margin: auto;
-  } */
+    padding: 30px;
+    
+    
+  }
   
   .search-bar{
     margin: auto;
+    display: flex;
+    /* margin-left: 200px; */
   }
 
   .footer-img{
@@ -288,6 +326,12 @@
     background-color: #af0788;
     font-size: 20px;
 }
+.banner-h:hover{
+    background-color: rgb(187, 161, 129);
+    font-size: 14px;
+}
+
+
 .time{
     margin-left: 15px;
 }
@@ -307,3 +351,29 @@
 hr{
     width: 1100px;
 }
+
+.btnn-1{
+    background-color: #1147fa;
+    font-size: 14px;
+    width: 180px;height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.btnn-2{
+    background-color: #021813;
+    font-size: 14px;
+    width: 180px;height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.btnn-3{
+    background-color: #2b9327;
+    font-size: 14px;
+    width: 180px;height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
