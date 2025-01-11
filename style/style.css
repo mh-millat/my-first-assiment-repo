@@ -22,7 +22,15 @@
     width: 1280px;
     background-color: #C6E4D6;
     margin: auto;
-    border-radius: 12px;
+ .btnn{
+    font-size: 14px;
+    width: 180px;
+    height: 40px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+  }    border-radius: 12px;
     
     }
 
@@ -46,15 +54,7 @@
 
 
 
-  .btnn{
-    font-size: 14px;
-    width: 180px;
-    height: 40px;
-    background-color: #006A50;
-    border: none;
-    border-radius: 10px;
-    color: white;
-  }
+ 
 
   .header-image{
     height: 400px;
@@ -95,9 +95,10 @@
 
   .main-future{
     width: 1280px;
-    height: 324px;
+    height: 400px;
     margin: auto;
     margin-top: 100px;
+    
   }
 
   .future-parent{
@@ -110,14 +111,170 @@
     background-color: aquamarine;
     padding: 20px;
     border-radius: 10px;
+    height: 240px;
   }
 
   .future-text{
-    height: 170px;
-    width: auto;
-    background-color: rgb(189, 193, 152);
-    padding: 20px;
+    margin-top: 100px;
+    background-color: rgb(174, 238, 238);
+    width: 1280px;
     border-radius: 10px;
-    margin-top: 40px;
+    padding: 15px;
+    
   }
 
+.future-content{
+    background-color: bisque;
+    border-radius: 10px;
+    /* margin-left: 70px; */
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border: 20px solid bisque;
+    height: 180px;
+    width: 1245px;
+    margin: auto;
+
+}
+
+.future-mcnt{
+    
+    margin-top: 40px;
+}
+
+.recent-news{
+    margin-top: 50px;
+}
+.news-child{
+    display: flex;
+    gap: 20px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    height: 307px;
+    padding: 40px;
+    
+}
+
+.news-father{
+    width: 1280px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.recent-img{
+    border-radius: 20px;
+    
+}
+
+.ol{
+    margin-top: 20px;
+}
+
+/* pay section */
+
+.pay-header{
+    width: 1280px;
+    margin: auto;
+}
+
+.pay-father{
+    
+}
+
+.pay-option{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pay-child{
+    margin-top: 30px;
+}
+
+.bttnn{
+    font-size: 14px;
+    width: 180px;
+    height: 80px;
+    background-color: rgb(190, 190, 190);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 44px;
+  }
+
+  .butn{
+    width: 900px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+  }
+  .click{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+  }
+
+  .clr{
+    background-color: rgb(251, 198, 118);
+  }
+  .clr-1{
+    background-color: darkcyan;
+  }
+  .clr-2{
+    background-color: darkkhaki;
+  }
+.clr-3{
+    background-color: purple;
+}
+
+
+/* footer side */
+
+.search-bar {
+    height: 40px;
+    width: 500px;
+    font-size: 14px; 
+    border: none;
+    border-radius: 10px 0 0 10px;
+    background-color: beige;
+    padding-left: 20px;
+  }
+
+  .search{
+    display: flex;
+  }
+
+  .imgg{
+    border: none; background-color: #006A50;
+    border-radius: 0 10px 10px 0;
+    width: 120px;
+  }
+
+  .footer-head{
+    text-align: center;
+  }
+
+  /* .footer-father{
+    margin: auto;
+  } */
+  
+  .search-bar{
+    margin: auto;
+  }
+
+  .footer-img{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .footer-finis{
+    text-align: center;
+  }
