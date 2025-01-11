@@ -122,11 +122,21 @@ h1{
 }
 
 .future-child{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 20px;
     border-radius: 10px;
     height: 235px;
     width: 410px;
+}
+
+.color-1{
+    background-color: rgb(233, 121, 23);
+}
+.color-2{
+    background-color: #2b9327;
+}
+.color-3{
+    background-color: #076ec3;
 }
 
 .future-text{
