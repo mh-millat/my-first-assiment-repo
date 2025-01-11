@@ -2,10 +2,10 @@
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 
-  .see-more{
+.see-more{
     width: 150px;
     height: 45px;
     background-color: rgb(215, 144, 81);
@@ -13,29 +13,29 @@
     border: none;
     border-radius: 10px;
     color: white;
-  }
+}
 
-  nav{
+nav{
     display: flex;
     justify-content: space-between;
     margin: 0 70px;
     align-items: center;
-  }
+}
 
-  nav div button{
+nav div button{
     padding: 7px 12px;
     border-radius: 7px;
     border: 1px solid gray;
-  }
+}
 
-  .header-banner{
+.header-banner{
     height: 560px;
     width: 1280px;
     background-color: #C6E4D6;
     margin: auto;
     border-radius: 10px;
-  }
- .btnn{
+}
+.btnn{
     font-size: 14px;
     width: 180px;
     height: 40px;
@@ -44,117 +44,109 @@
     border-radius: 10px;
     color: white;
     border-radius: 12px;
- }
+}
 
-    .header-content{
+.header-content{
         display: flex;
         align-items: center;
         padding: 100px;
         justify-content: space-between;
-    }
-    .header-text{
-        width: 440px;
-        height: 320px;
-    }
+}
+.header-text{
+    width: 440px;
+    height: 320px;
+}
 
-  h1{
+h1{
     font-size: 40px;
-  }
-  .header-p{
+}
+.header-p{
     font-size: 18px;
-  }
+}
 
 
 
  
 
-  .header-image{
+.header-image{
     height: 400px;
     width: 474px;
-  }
+}
 
 
 
   /* main side */
 
-  .main-parent{
+.main-parent{
     display: flex;
     gap: 24px;
-  }
+}
 
-  .main-child{
+.main-child{
     background-color: rgb(204, 204, 204);
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 30px;
     
-  }
+}
 
-  .main-header{
+.main-header{
     width: 1280px;
     height: 324px;
     margin: auto;
     gap: 40px;
     margin-top: 100px;
+}
 
-  }
-
-  .main-ht{
+.main-ht{
     margin-bottom: 20px;
-  }
+}
 
   /* second stape */
 
-  .main-future{
+.main-future{
     width: 1280px;
     margin: auto;
     margin-top: 100px;
     justify-content: center;
     
     
-  }
+}
 
-  .future-parent{
+.future-parent{
     display: flex;
     gap: 24px;
     flex-grow: unset;
     margin: auto;
     justify-content: space-between;
-    
-    
-    
-  }
+}
 
-  .future-child{
+.future-child{
     background-color: aquamarine;
     padding: 20px;
     border-radius: 10px;
     height: 235px;
     width: 410px;
-    
-  }
+}
 
-  .future-text{
+.future-text{
     margin-top: 100px;
     background-color: rgb(174, 238, 238);
     width: 1280px;
     border-radius: 10px;
     padding: 15px;
     
-  }
+}
 
 .future-content{
     background-color: bisque;
     border-radius: 10px;
-    
-    
     border: 20px solid bisque;
     height: 180px;
     width: 1245px;
     margin: auto;
     border: 1px solid tomato;
     padding: 30px;
-
 }
 .dd{
     background-image: url(../assets/quote-bg.png);
@@ -184,7 +176,6 @@
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-
 }
 
 .recent-img{
@@ -230,31 +221,31 @@
     border-radius: 10px;
     color: white;
     font-size: 44px;
-  }
+}
 
-  .butn{
+.butn{
     width: 900px;
     height: 40px;
     border: none;
     border-radius: 10px;
-  }
-  .click{
+}
+.click{
     width: 150px;
     height: 40px;
     border: none;
     border-radius: 10px;
     background-color: coral;
-  }
+}
 
-  .clr{
+.clr{
     background-color: rgb(251, 198, 118);
-  }
-  .clr-1{
+}
+.clr-1{
     background-color: darkcyan;
-  }
-  .clr-2{
+}
+.clr-2{
     background-color: darkkhaki;
-  }
+}
 .clr-3{
     background-color: purple;
 }
@@ -269,23 +260,21 @@
     border: none;
     border-radius: 10px 0 0 10px;
     background-color: beige;
-    
-    
-  }
+}
 
-  .search{
+.search{
     display: flex;
     
-  }
+}
 
-  .imgg{
+.imgg{
     border: none; background-color: #006A50;
     border-radius: 0 10px 10px 0;
     width: 120px;
     height: 42px;
-  }
+}
 
-  .footer-head{
+.footer-head{
     text-align: center;
     background-color: #19d5e2;
     height: 280px;
@@ -294,32 +283,30 @@
     border-radius: 15px;
     margin-top: 100px;
     padding: 
-  }
+}
 
-  .footer-father{
+.footer-father{
     margin: auto;
     padding: 30px;
-    
-    
-  }
+}
   
-  .search-bar{
+.search-bar{
     margin: auto;
     display: flex;
     /* margin-left: 200px; */
-  }
+}
 
-  .footer-img{
+.footer-img{
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-top: 20px;
-  }
+}
 
-  .footer-finis{
+.footer-finis{
     text-align: center;
     margin-top: 60px;
-  }
+}
 
 
 .btn:hover{
